@@ -74,7 +74,7 @@ config(['$routeProvider', function($routeProvider) {
     }
 })
 .constant('variables',{
-	rootUrl: 'http://localhost/Shoppingcartdemo/#/'
+	rootUrl: 'http://localhost/angulardemo/#/'
 })
 .service('login',function($rootScope,variables){
 	this.loggedIn = false;
