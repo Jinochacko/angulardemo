@@ -1,0 +1,22 @@
+<div class="pull-left col-lg-12 no-padding">
+	<div class="pull-left col-lg-12 btn btn-primary added-to-cart" ng-if="addedToCart">Product added to cart</div>
+	<div class="pull-left col-lg-6 col-sm-12 no-padding text-center">
+		<img src="{{product.img}}" class="max-width-100">
+	</div>
+	<div class="pull-left col-lg-6 col-sm-12">
+		<h2 class="pull-left col-lg-12 no-padding" ng-bind="product.title"></h2>
+		<h3 class="pull-left product-price" ng-bind="product.price"></h3>
+		<div class="pull-left col-lg-12 no-padding">
+			<span class="pull-left">Sizes:{{cartCount}} </span>
+			<div class="pull-left product-size" ng-repeat="size in product.size">
+				<input type="radio" id="size-{{size}}" ng-click="update(size)" name="psize" ng-value="{{size}}">
+				<label for="size-{{size}}" ng-bind="size" class="text-uppercase"></label>
+			</div>
+		</div>
+		<p class="pull-left col-lg-12 no-padding">{{product.description}}</p>
+		<div class="pull-left col-lg-12 no-padding qty-input-wrap">
+			<span class="pull-left">Qty </span><input type="number" min="1" name="" ng-model="qty" class="pull-left form-control text-center">
+		</div>
+		<button class="btn btn-primary pull-left" type="button" ng-click="addToCart(product)">Add to cart</button>
+	</div>
+</div>

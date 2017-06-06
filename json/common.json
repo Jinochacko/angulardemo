@@ -1,0 +1,198 @@
+{
+	"title": "Kids Wear",
+	"banner": "images/mens.jpg",
+	"items": [
+		{
+			"title": "Common1",
+			"price": "Rs 499",
+			"img": "images/sh1.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common1"
+		},
+		{
+			"title": "Common2",
+			"price": "Rs 399",
+			"img": "images/sh2.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common2"
+		},
+		{
+			"title": "Common3",
+			"price": "Rs 799",
+			"img": "images/sh3.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common3"
+		},
+		{
+			"title": "Common4",
+			"price": "Rs 599",
+			"img": "images/sh4.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common4"
+		},
+		{
+			"title": "Common5",
+			"price": "Rs 699",
+			"img": "images/sh5.jpeg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common5"
+		},
+		{
+			"title": "Common6",
+			"price": "Rs 550",
+			"img": "images/sh5.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common6"
+		},
+		{
+			"title": "Common1",
+			"price": "Rs 499",
+			"img": "images/sh1.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common1"
+		},
+		{
+			"title": "Common2",
+			"price": "Rs 399",
+			"img": "images/sh2.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common2"
+		},
+		{
+			"title": "Common3",
+			"price": "Rs 799",
+			"img": "images/sh3.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common3"
+		},
+		{
+			"title": "Common4",
+			"price": "Rs 599",
+			"img": "images/sh4.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common4"
+		},
+		{
+			"title": "Common5",
+			"price": "Rs 699",
+			"img": "images/sh5.jpeg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common5"
+		},
+		{
+			"title": "Common6",
+			"price": "Rs 550",
+			"img": "images/sh5.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common6"
+		},
+		{
+			"title": "Common1",
+			"price": "Rs 499",
+			"img": "images/sh1.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common1"
+		},
+		{
+			"title": "Common2",
+			"price": "Rs 399",
+			"img": "images/sh2.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common2"
+		},
+		{
+			"title": "Common3",
+			"price": "Rs 799",
+			"img": "images/sh3.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common3"
+		},
+		{
+			"title": "Common4",
+			"price": "Rs 599",
+			"img": "images/sh4.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common4"
+		},
+		{
+			"title": "Common5",
+			"price": "Rs 699",
+			"img": "images/sh5.jpeg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common5"
+		},
+		{
+			"title": "Common6",
+			"price": "Rs 550",
+			"img": "images/sh5.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common6"
+		},
+		{
+			"title": "Common1",
+			"price": "Rs 499",
+			"img": "images/sh1.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common1"
+		},
+		{
+			"title": "Common2",
+			"price": "Rs 399",
+			"img": "images/sh2.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common2"
+		},
+		{
+			"title": "Common3",
+			"price": "Rs 799",
+			"img": "images/sh3.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common3"
+		},
+		{
+			"title": "Common4",
+			"price": "Rs 599",
+			"img": "images/sh4.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common4"
+		},
+		{
+			"title": "Common5",
+			"price": "Rs 699",
+			"img": "images/sh5.jpeg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common5"
+		},
+		{
+			"title": "Common6",
+			"price": "Rs 550",
+			"img": "images/sh5.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/common/common6"
+		}
+	]
+}

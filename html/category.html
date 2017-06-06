@@ -1,0 +1,19 @@
+
+<h2 class="pull-left">{{category.title}}</h2>
+<div class="pull-left col-lg-12 no-padding">
+	<div class="col-sm-6 col-md-3" ng-repeat="item in category.items"> 
+    <a href="{{item.url}}" class="no-underline" role="button">
+  		<div class="thumbnail"> 
+  			<img src="{{item.img}}" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;"> 
+  			<div class="caption"> 
+  				<h3>{{item.title}}</h3> 
+  				<p>{{item.description}}</p> 
+  				<!-- <p>
+  					<a href="{{item.url}}" class="btn btn-primary" role="button">Button</a> 
+  					<a href="#" class="btn btn-default" role="button">Button</a>
+  				</p>  -->
+  			</div> 
+  		</div> 
+    </a>  
+	</div>
+</div>

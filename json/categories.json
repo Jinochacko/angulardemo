@@ -1,0 +1,29 @@
+{
+	"title": "Shop By Categories",
+	"items": [
+		{
+			"title": "Mens",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"img": "images/sale3.jpeg",
+			"url": "#/category/mens"
+		},
+		{
+			"title": "Women",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"img": "images/sale.jpeg",
+			"url": "#/category/women"
+		},
+		{
+			"title": "Kids",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"img": "images/sale2.jpg",
+			"url": "#/category/kids"
+		},
+		{
+			"title": "General",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"img": "images/sale4.jpg",
+			"url": "#/category/common"
+		}
+	]
+}

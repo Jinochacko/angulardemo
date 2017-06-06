@@ -1,0 +1,15 @@
+<form class="margin-center col-lg-4 pull-none" name="myForm">
+	<h2>Login</h2>
+	<div class="form-wrap pull-left col-lg-12 no-padding">
+		<label>Email</label>
+		<input class="form-control max-width-100 col-lg-12" name="username" type="text" autocomplete="off" placeholder="Enter your email" ng-model="username" required email-valid>
+	</div>
+	<div class="form-wrap pull-left col-lg-12 no-padding">
+		<label>Password</label>
+		<input class="form-control max-width-100 col-lg-12" type="password" name="pass" autocomplete="off" placeholder="Enter your password" ng-model="pass" required>
+	</div>
+	<p ng-if="invalidLogin" class="pull-left col-lg-12 no-padding invalid-user-error">Invalid user name or password</p>
+	<div class="form-wrap pull-left col-lg-12 no-padding">
+		<button type="button" class="btn btn-primary" ng-disabled="!myForm.username.$valid || !myForm.pass.$valid" ng-click="login()">Submit</button>
+	</div>
+</form>

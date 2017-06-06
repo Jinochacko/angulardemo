@@ -1,0 +1,22 @@
+<nav class="navbar navbar-inverse affix-top col-lg-12 header">
+	<div class="container-fluid container"> 
+		<div class="navbar-header"> 
+			<button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false"> 
+				<span class="sr-only">Toggle navigation</span> 
+				<span class="icon-bar"></span> 
+				<span class="icon-bar"></span> 
+				<span class="icon-bar"></span> 
+			</button> 
+			<a href="#" class="navbar-brand">DemoShoppingCart</a> 
+		</div> 
+		<div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-9"> 
+			<ul class="nav navbar-nav"> 
+				<li ng-class="{'active': tab == 'home'}"><a href="#/">Home</a></li> 
+				<li ng-class="{'active': tab == 'category'}"><a href="#/category">Categories</a></li> 
+				<li ng-class="{'active': tab == 'cart'}"><a href="#/cart" class="menu-cart">Cart<span>{{count}}</span></a></li> 
+				<li ng-class="{'active': tab == 'login'}" ng-if="!isLoggedIn"><a href="#/login">Login</a></li>
+				<li ng-class="{'active': tab == 'login'}" ng-if="isLoggedIn" ng-click="logout()"><a type="button">Logout</a></li>
+			</ul> 
+		</div> 
+	</div>
+</nav>

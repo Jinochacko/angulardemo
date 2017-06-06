@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="well">
+        <div class="page-header">
+            <h3>Checkout</h3>
+        </div>
+
+       <table class="table">
+           <tr>
+               <td class="no-border">
+                    <b>Item</b>    
+               </td>
+               <td class="no-border">
+                    <b>Total</b>
+               </td>
+           </tr>
+           <tr ng-repeat="item in cart">
+               <td ng-class="{'no-border' : $index == 0 }">
+                   {{item.title}}
+               </td>
+               <td ng-class="{'no-border' : $index == 0 }">
+                   Rs {{item.total}}
+               </td>
+           </tr>
+           <tr>
+               <td>
+                    <b>Grand Total:</b>    
+               </td>
+               <td>
+                    <b>Rs {{cartTotal}}</b>
+               </td>
+           </tr>
+       </table>
+      
+
+    </div>
+    <div class="text-left col-lg-12">
+        <a type="button" class="btn btn-danger" href="#/cart">Back to cart</a>
+        <button type="button" class="btn btn-primary pull-right" ng-click="placeOrder()">Place Order</button>
+    </div>
+</div>

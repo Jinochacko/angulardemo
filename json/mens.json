@@ -1,0 +1,198 @@
+{
+	"title": "Mens Wear",
+	"banner": "images/mens.jpg",
+	"items": [
+		{
+			"title": "Mens1",
+			"price": "Rs 499",
+			"img": "images/shirt1.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens1"
+		},
+		{
+			"title": "Mens2",
+			"price": "Rs 399",
+			"img": "images/shirt2.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens2"
+		},
+		{
+			"title": "Mens3",
+			"price": "Rs 799",
+			"img": "images/shirt3.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens3"
+		},
+		{
+			"title": "Mens4",
+			"price": "Rs 599",
+			"img": "images/shirt4.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens4"
+		},
+		{
+			"title": "Mens5",
+			"price": "Rs 699",
+			"img": "images/shirt5.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens5"
+		},
+		{
+			"title": "Mens6",
+			"price": "Rs 550",
+			"img": "images/shirt6.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens6"
+		},
+		{
+			"title": "Mens1",
+			"price": "Rs 499",
+			"img": "images/shirt1.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens1"
+		},
+		{
+			"title": "Mens2",
+			"price": "Rs 399",
+			"img": "images/shirt2.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens2"
+		},
+		{
+			"title": "Mens3",
+			"price": "Rs 799",
+			"img": "images/shirt3.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens3"
+		},
+		{
+			"title": "Mens4",
+			"price": "Rs 599",
+			"img": "images/shirt4.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens4"
+		},
+		{
+			"title": "Mens5",
+			"price": "Rs 699",
+			"img": "images/shirt5.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens5"
+		},
+		{
+			"title": "Mens6",
+			"price": "Rs 550",
+			"img": "images/shirt6.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens6"
+		},
+		{
+			"title": "Mens1",
+			"price": "Rs 499",
+			"img": "images/shirt1.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens1"
+		},
+		{
+			"title": "Mens2",
+			"price": "Rs 399",
+			"img": "images/shirt2.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens2"
+		},
+		{
+			"title": "Mens3",
+			"price": "Rs 799",
+			"img": "images/shirt3.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens3"
+		},
+		{
+			"title": "Mens4",
+			"price": "Rs 599",
+			"img": "images/shirt4.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens4"
+		},
+		{
+			"title": "Mens5",
+			"price": "Rs 699",
+			"img": "images/shirt5.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens5"
+		},
+		{
+			"title": "Mens6",
+			"price": "Rs 550",
+			"img": "images/shirt6.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens6"
+		},
+		{
+			"title": "Mens1",
+			"price": "Rs 499",
+			"img": "images/shirt1.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens1"
+		},
+		{
+			"title": "Mens2",
+			"price": "Rs 399",
+			"img": "images/shirt2.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens2"
+		},
+		{
+			"title": "Mens3",
+			"price": "Rs 799",
+			"img": "images/shirt3.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens3"
+		},
+		{
+			"title": "Mens4",
+			"price": "Rs 599",
+			"img": "images/shirt4.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens4"
+		},
+		{
+			"title": "Mens5",
+			"price": "Rs 699",
+			"img": "images/shirt5.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens5"
+		},
+		{
+			"title": "Mens6",
+			"price": "Rs 550",
+			"img": "images/shirt6.jpg",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+			"size": ["s","m","l"],
+			"url": "#/category/mens/mens6"
+		}
+	]
+}

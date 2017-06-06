@@ -1,0 +1,48 @@
+ <div class="container">
+	   <h2>Cart</h2>
+      <div class="row">
+        <div class="col-xs-7 col-md-8 col-sm-8 col-lg-8">
+            <h3  ng-if="!showBtn">No items in cart. Browse products and add to cart.</h3>
+            <div class="panel panel-primary pull-left col-lg-12 no-padding" ng-repeat="item in cartList" ng-if="showBtn">
+              <div class="cart-image col-md-3 col-sm-3 col-lg-3">
+                <img src="{{item.img}}" class="max-width-100">
+              </div>
+              <div class="col-md-9 col-sm-9 col-lg-9 pull-left">
+                  <div class="panel-heading pull-left col-lg-12">
+                      <h3 class="panel-title" ng-bind="item.title"></h3>
+                  </div>
+                  <div class="panel-body pull-left col-lg-6 col-sm-12">
+                    <div class="pull-left col-lg-12 no-padding"><b ng-bind="item.price"></b></div>
+                    <div class="pull-left col-lg-12 no-padding">Size: <b class=" text-uppercase">{{item.size}}</b></div>
+                  </div>
+                  <div class="pull-left col-lg-3 col-sm-12">
+                    <label>Qty</label>
+                    <input type="number" min="1" name="" ng-model="item.qty" ng-change="updateItem(item)" class="form-control max-width-100">
+                  </div>
+                  <div class="pull-left col-lg-3 col-sm-12 cart-btn-wrap no-padding">
+                    <label class="pull-left col-lg-12 no-padding text-center">Total</label>
+                    <span class="pull-left col-lg-12 no-padding text-center"><b>Rs {{item.total}}</b></span>
+                  </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary pull-left" ng-click="emptyCart()" ng-if="showBtn">Empty Cart</button>
+        </div>
+
+        <div class="col-xs-5 col-md-4 col-sm-4 col-lg-4" data-spy="affix" data-offset-top="20" ng-if="showBtn">
+            <div class="panel panel-primary">
+              <div id="divTotal" class="panel-heading">
+                  <h3 class="panel-title">Total</h3>
+              </div>
+              <div class="panel-body">
+                  <h2>Rs {{cartTotal}}</h2>
+              </div>
+          </div>
+          <div class="text-center">
+              <a href="#/checkout" class="btn btn-danger">Checkout</a>
+              
+          </div>
+        </div>
+      </div><!-- /.row  -->
+
+
+    </div><!-- /.container -->
