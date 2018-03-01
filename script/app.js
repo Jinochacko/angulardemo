@@ -74,7 +74,7 @@ config(['$routeProvider', function($routeProvider) {
     }
 })
 .constant('variables',{
-	rootUrl: 'http://localhost/angulardemo/#/'
+	rootUrl: 'https://jinochacko.github.io/angulardemo/#/'
 })
 .service('login',function($rootScope,variables){
 	this.loggedIn = false;
