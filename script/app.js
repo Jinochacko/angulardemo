@@ -86,7 +86,6 @@ config(['$routeProvider', function($routeProvider) {
 		var u_pass = 'test@123';
 		if((user == u_email) && (pass == u_pass)){
 			localStorage.setItem('is_logged_in',true);
-			location.href = variables.rootUrl+'/cart/';
                         return true;
 		} else {
 			return false;
@@ -158,10 +157,10 @@ config(['$routeProvider', function($routeProvider) {
 	$scope.login = function(){
 		$scope.loginSubmit = login.submit($scope.username,$scope.pass);
 		if($scope.loginSubmit){
-			$scope.invalidLogin = false;
+			$scope.invalidLogin = true;
 			location.href = variables.rootUrl;
 		} else {
-			$scope.invalidLogin = true;
+			$scope.invalidLogin = false;
 		}
 	};
 })
