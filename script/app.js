@@ -86,7 +86,7 @@ config(['$routeProvider', function($routeProvider) {
 		var u_pass = 'test@123';
 		if((user == u_email) && (pass == u_pass)){
 			localStorage.setItem('is_logged_in',true);
-			window.history.back();
+			location.reload();
 		} else {
 			return false;
 		}
@@ -97,6 +97,7 @@ config(['$routeProvider', function($routeProvider) {
 	this.logout = function(){
 		localStorage.removeItem('is_logged_in');
 		location.href = variables.rootUrl;
+		location.reload();
 	}
 	return this;
 })
