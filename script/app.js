@@ -50,7 +50,7 @@ config(['$routeProvider', function($routeProvider) {
         controller: function ($rootScope,$scope,login) {
         	$scope.cart = [];
         	$scope.tab = $rootScope.tab;
-        	$scope.isLoggedIn = login.loggedIn();
+        	$scope.isLoggedIn = $rootScope.isLoggedIn;
         	if(JSON.parse(localStorage.getItem('cart_list'))){
 	        	$scope.cart = JSON.parse(localStorage.getItem('cart_list'));
 	        }
@@ -79,10 +79,8 @@ config(['$routeProvider', function($routeProvider) {
 .service('login',function($rootScope,variables){
 	this.loggedIn = false;
 	if(localStorage.getItem('is_logged_in')){
-		this.loggedIn = true;
-	}
-	this.isLoggedIn = function(){
-		return this.loggedIn;
+                this.loggedIn = true;
+		$rootScope.isLoggedIn = true;
 	}
 	var login = function(user,pass){
 		var u_email = 'testuser@gmail.com';
@@ -161,9 +159,10 @@ config(['$routeProvider', function($routeProvider) {
 		$scope.loginSubmit = login.submit($scope.username,$scope.pass);
 		if($scope.loginSubmit){
 			$scope.invalidLogin = false;
+			$rootScope.isLoggedIn = true;
 			location.href = variables.rootUrl;
-			setTimeout(function(){location.reload();}, 100);
 		} else {
+			$rootScope.isLoggedIn = false;
 			$scope.invalidLogin = true;
 		}
 	};
