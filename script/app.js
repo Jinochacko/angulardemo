@@ -153,9 +153,6 @@ config(['$routeProvider', function($routeProvider) {
 		location.href = variables.rootUrl;
 		return;
 	}
-	$scope.one = function(user){
-		alert($scope.username);
-	}
 	$scope.login = function(){
 		$scope.loginSubmit = login.submit($scope.username,$scope.pass);
 		if($scope.loginSubmit){
