@@ -50,7 +50,7 @@ config(['$routeProvider', function($routeProvider) {
         controller: function ($rootScope,$scope,login) {
         	$scope.cart = [];
         	$scope.tab = $rootScope.tab;
-        	$scope.isLoggedIn = login.loggedIn;
+        	$scope.isLoggedIn = login.loggedIn();
         	if(JSON.parse(localStorage.getItem('cart_list'))){
 	        	$scope.cart = JSON.parse(localStorage.getItem('cart_list'));
 	        }
@@ -80,6 +80,9 @@ config(['$routeProvider', function($routeProvider) {
 	this.loggedIn = false;
 	if(localStorage.getItem('is_logged_in')){
 		this.loggedIn = true;
+	}
+	this.isLoggedIn = function(){
+		return this.loggedIn;
 	}
 	var login = function(user,pass){
 		var u_email = 'testuser@gmail.com';
