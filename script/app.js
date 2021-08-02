@@ -86,7 +86,7 @@ config(['$routeProvider', function($routeProvider) {
 		var u_pass = 'test@123';
 		if((user == u_email) && (pass == u_pass)){
 			localStorage.setItem('is_logged_in',true);
-			//location.href = variables.rootUrl+'/cart/';
+			location.href = variables.rootUrl+'/cart/';
                         return true;
 		} else {
 			return false;
