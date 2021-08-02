@@ -87,7 +87,6 @@ config(['$routeProvider', function($routeProvider) {
 		if((user == u_email) && (pass == u_pass)){
 			localStorage.setItem('is_logged_in',true);
 			location.href = variables.rootUrl+'/cart/';
-			location.reload();
 		} else {
 			return false;
 		}
