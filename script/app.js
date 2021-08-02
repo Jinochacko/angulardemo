@@ -149,7 +149,7 @@ config(['$routeProvider', function($routeProvider) {
 	$scope.username = '';
 	$scope.pass = '';
 	$scope.invalidLogin = false;
-	if(login.loggedIn){
+	if($rootScope.isLoggedIn){
 		location.href = variables.rootUrl;
 		return;
 	}
