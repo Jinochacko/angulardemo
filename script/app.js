@@ -97,6 +97,7 @@ config(['$routeProvider', function($routeProvider) {
 	};
 	this.logout = function(){
 		localStorage.removeItem('is_logged_in');
+		$rootScope.isLoggedIn = false;
 		location.href = variables.rootUrl;
 	}
 	return this;
