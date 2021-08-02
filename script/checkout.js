@@ -2,10 +2,10 @@
 
 angular.module('checkout', [])
 
-.controller('checkoutController', function($scope,cartTotal,variables,login) {
+.controller('checkoutController', function($rootScope,$scope,cartTotal,variables,login) {
 	$scope.cart = JSON.parse(localStorage.getItem('cart_list'));
 	// console.log(login.loggedIn);
-	if(!login.loggedIn){
+	if(!$rootScope.isLoggedIn){
 		location.href = variables.rootUrl+'login/';
 		return;
 	} 
