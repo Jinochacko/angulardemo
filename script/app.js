@@ -162,6 +162,7 @@ config(['$routeProvider', function($routeProvider) {
 		if($scope.loginSubmit){
 			$scope.invalidLogin = false;
 			location.href = variables.rootUrl;
+			setTimeout(function(){location.reload();}, 100);
 		} else {
 			$scope.invalidLogin = true;
 		}
